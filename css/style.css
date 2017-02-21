@@ -1,0 +1,156 @@
+.myfont {
+	font-family: Arial;
+	color:white;
+}
+.menu {
+	background-color: #2c3e50;
+
+}
+.project_name {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 30px 0px;
+}
+.menu ul {
+	font-size: 10px;
+	font-weight: bold;
+	padding: 40px 0px 30px 0px;
+	list-style-type: none;
+	text-align: center;
+}
+.startboot_wrap {
+	background-color: #18bc9c;
+	padding: 50px 0;
+}
+.startboot_wrap h1 {
+	font-weight: bold;
+}
+.startboot_wrap img {
+	width: 200px;
+	height:200px;
+}
+.startboot_wrap i {
+	padding:5px 0 15px 0;
+}
+.startboot_wrap .startboot {
+	text-align: center;
+}
+.startboot_wrap span {
+	font-size: 22px;
+	font-weight: black;
+}
+.portfolio {
+	padding-bottom: 13px;
+}
+.portfolio_head {
+	text-align: center;
+	color: #333;
+	padding: 50px 0 0 0;
+}
+.portfolio_head h2 {
+	font-weight: bold;
+}
+.portfolio_head span {
+	font-size: 22px;
+	font-weight: black;
+	color: #2c3e50;
+}
+.portfolio_head i {
+	color: #2c3e50;
+}
+.portfolio img {
+	width:  216px;
+	height: calc(216px/1.4);
+	padding: 0 5px;
+}
+.portfolio img:last-child {
+	text-align: right;
+}
+.about {
+	padding-bottom: 13px;
+	background-color: #18bc9c;
+}
+.about_head {
+	text-align: center;
+	color: white;
+	padding: 50px 0 0 0;
+}
+.about_head h2 {
+	font-weight: bold;
+}
+.about_head span {
+	font-size: 22px;
+	font-weight: black;
+
+}
+.about_content p {
+	padding: 10px 5px;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+.about button {
+	background-color: #18bc9c;
+	border-radius: 6px;
+	border: 2px solid white;
+	padding:6px 10px;
+	text-decoration: none;
+	outline: none;
+}
+.about span  {
+	text-align: center;
+	padding-bottom: 40px;
+}
+.contact {
+	background-color: white;
+}
+.contact_head {
+	text-align: center;
+	color: #333;
+	padding: 50px 0 0 0;
+}
+.contact_head h2 {
+	font-weight: bold;
+}
+.contact_head span {
+	font-size: 22px;
+	font-weight: black;
+	color: #2c3e50;
+}
+.contact_head i {
+	color: #2c3e50;
+}
+.contact_content p {
+	padding: 10px 5px;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+.contact button {
+	background-color: #18bc9c;
+	border-radius: 6px;
+	border: 2px solid white;
+	padding:6px 10px;
+	text-decoration: none;
+	outline: none;
+}
+.contact span  {
+	text-align: center;
+	padding-bottom: 40px;
+}
+input.myinput{
+	display: block;
+	font-size:16px;
+	color: #999;
+	padding: 10px 10px;
+	border:none;
+	border-top: 1px solid #eee;
+	width: 100%;
+}
+.btn_send {
+	background-color: #18bc9c;
+	color:white;
+	padding: 8px 10px;
+	border-radius: 7px;
+	border: none;
+}
