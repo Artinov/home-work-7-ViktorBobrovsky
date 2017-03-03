@@ -1,12 +1,21 @@
+@font-face {
+    font-family: "Doctor Soos Bold 2.1";
+    src: url(./fonts/Doctor Soos Bold 2.1.ttf) format("ttf");
+}
+h1, h2, h3 {
+	font-family: "Doctor Soos Bold 2.1";
+
+}
 .myfont {
-	font-family: Arial;
 	color:white;
+	font-family: "Doctor Soos Bold 2.1";
 }
 .menu {
 	background-color: #2c3e50;
 
 }
 .project_name {
+		font-family: "Doctor Soos Bold 2.1";
 	font-size: 20px;
 	font-weight: bold;
 	padding: 30px 0px;
@@ -18,12 +27,18 @@
 	list-style-type: none;
 	text-align: center;
 }
+.star {
+	margin-right:8px;
+}
+.minus {
+	margin-left:-8px;
+}
 .startboot_wrap {
 	background-color: #18bc9c;
 	padding: 50px 0;
 }
 .startboot_wrap h1 {
-	font-weight: bold;
+	font-weight: normal;
 }
 .startboot_wrap img {
 	width: 200px;
@@ -32,15 +47,11 @@
 .startboot_wrap i {
 	padding:5px 0 15px 0;
 }
-.startboot_wrap .startboot {
+.startboot_wrap{
 	text-align: center;
 }
-.startboot_wrap span {
-	font-size: 22px;
-	font-weight: black;
-}
 .portfolio {
-	padding-bottom: 13px;
+	padding-bottom: 10px;
 }
 .portfolio_head {
 	text-align: center;
@@ -51,16 +62,14 @@
 	font-weight: bold;
 }
 .portfolio_head span {
-	font-size: 22px;
-	font-weight: black;
 	color: #2c3e50;
 }
 .portfolio_head i {
 	color: #2c3e50;
 }
 .portfolio img {
-	width:  216px;
-	height: calc(216px/1.4);
+	width:  360px;
+	height: calc(360px/1.4);
 	padding: 0 5px;
 }
 .portfolio img:last-child {
@@ -77,11 +86,6 @@
 }
 .about_head h2 {
 	font-weight: bold;
-}
-.about_head span {
-	font-size: 22px;
-	font-weight: black;
-
 }
 .about_content p {
 	padding: 10px 5px;
@@ -113,8 +117,6 @@
 	font-weight: bold;
 }
 .contact_head span {
-	font-size: 22px;
-	font-weight: black;
 	color: #2c3e50;
 }
 .contact_head i {
@@ -153,4 +155,23 @@ input.myinput{
 	padding: 8px 10px;
 	border-radius: 7px;
 	border: none;
+}
+form div {
+	padding: 20px 10px 10px 10px;
+	margin:100px 0;
+	border-top: 1px solid #eee;
+}
+.center_item{
+	text-align: center;
+}
+.footer{
+	background-color: #2c3e50;	
+	padding: 70px 0;
+}
+.footer a {
+	color:#18bc9c;
+}
+.copyright {
+	background-color: #233140;
+	padding: 30px 0;
 }
